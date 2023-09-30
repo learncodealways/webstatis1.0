@@ -54,9 +54,13 @@ body{
     background-color: #333;
 }
 .container{
-   width: 800px;
+   width: 960px;
    background-color: #fff;
    margin: auto;
+}
+
+.content{
+    box-sizing: border-box;
 }
 
 .header .brand{
@@ -90,14 +94,18 @@ body{
    background-position: -125px -250px;
 }
 
-.content .subbrand{
+.main .subbrand {
   font-size: 28px;
   text-decoration: underline;
 }
 
-.content{
+.main{
     margin-top: 15px;
     margin-left: 10px;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 500px;
 }
 
 .sosmed{
@@ -127,3 +135,30 @@ p{
 .versi{
     text-align: center;
 }
+
+
+.clear{
+    clear:both;
+}
+
+.sidebar{
+    float: right;
+    width: 400px;
+    box-sizing: border-box;
+    margin-top: 20px;
+
+}
+
+h2 {
+font-size: 28px;
+font-style: italic;
+text-decoration: underline;
+margin-bottom: 10px;
+}
+
+
+
+p{
+    margin-top: 20px;
+}
+
