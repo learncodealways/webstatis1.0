@@ -56,9 +56,24 @@ body{
 .container{
    width: 960px;
    background-color: #fff;
-   margin: auto;
+   margin: 70px auto;
+   position: relative;
 }
 
+  .top-bar{
+     position:fixed;
+     height: 40px;
+     background-color: lightblue;
+     top: 0;
+     left: 0;
+     right: 0;
+     z-index: 9999;
+  }
+  .twitter{
+    position: absolute;
+    top: -22px;
+    right: -28px;
+  }
 .content{
     box-sizing: border-box;
 }
